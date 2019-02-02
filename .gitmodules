@@ -1,0 +1,6 @@
+[submodule "ISitePlugin"]
+	path = ISitePlugin
+	url = git@github.com:CommentViewerCollection/ISitePlugin.git
+[submodule "BrowserCookieInterfaces"]
+	path = BrowserCookieInterfaces
+	url = git@github.com:CommentViewerCollection/BrowserCookieInterfaces.git
