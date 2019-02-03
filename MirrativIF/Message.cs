@@ -21,14 +21,8 @@ namespace MirrativSitePlugin
     public interface IMirrativDisconnected : IMirrativMessage
     {
     }
-    public interface IMirrativComment : IMirrativMessage
+    public interface IMirrativComment : IMirrativMessage, IMessageComment
     {
-        //string Comment { get; }
-        string Id { get; }
-        //string UserName { get; }
-        string UserId { get; }
-        long PostedAt { get; }
-        IMessageImage UserIcon { get; set; }
     }
     public interface IMirrativJoinRoom : IMirrativMessage
     {
