@@ -30,7 +30,7 @@ namespace MirrativSitePlugin
         string Id { get; }
         //string UserName { get; }
         string UserId { get; }
-        long PostedAt { get; }
+        string PostTime { get; }
         IMessageImage UserIcon { get; set; }
     }
 }
